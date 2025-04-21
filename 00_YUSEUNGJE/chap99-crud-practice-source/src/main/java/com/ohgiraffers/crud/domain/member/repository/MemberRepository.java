@@ -33,6 +33,7 @@ public class MemberRepository {
         PreparedStatement pstmt = null;
         ResultSet rset = null;
         String sql = prop.getProperty("selectAllMembers");
+
         System.out.println("sql = " + sql);
 
         List<Member> members = null;
